@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px 20px 20px 20px;
+}
+
+.app-name{
+    font-size: 20px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input{
+    height: 44px;
+    background-color: #101010;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 0 20px;
+    color: white;
+}
+
+.input-error {
+    border: 2px solid #A33333;
+    color: #A33333;
+}
+
+.input-error::placeholder{
+    color: #A33333;
+}
+
+.search-input:focus{
+    border: none;
+    outline: none;
+}
+
+.search-btn{
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    padding: 13px 27px;
+    border: none;
+    background-color: #0082DF;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.favorite{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.favorite-city{
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fav-city-name{
+    font-size: 12px;
+}
+
+/* info sayfası için tasarım */
+
+.container-info{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.navbar-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city-span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.city-name{
+    font-size: 25px;
+}
+
+.back-index{
+    background: none;
+    border: none;
+}
+
+.weather-image{
+    margin-top: 45px;
+}
+
+.tempature-span{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+.city-tempature{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.tempature-degree-icon{
+    margin-top: 18px;
+}
+
+.tempature-minmax{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.city-max-span, .city-min-span{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.favorites-btn{
+    padding: 5px 10px;
+    background-color: #0082DF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.fav-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-delete{
+    background: none;
+    border: 1px solid white;
+    padding: 4px;
+    color: white;
+    border-radius: 5px;
+}
+
+.wind-hum, .rise-set{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #101010;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.windhum-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wind-span{
+    text-align: center;
+}
+
+.line{
+    border: 1px solid #232323;
+    height: 60px;
+}
+
+.setrise-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
